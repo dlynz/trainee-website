@@ -1,14 +1,53 @@
-
-h1 {
-    font-family: Roboto Mono;
-    text-align: center;
-}
+/* Colours: Text: White, 
+ *          Background: #1A1A1E, 
+ *          Primary: #C98ED2, 
+ *          Secondary #CAD6E9,
+ *          Accent: #9ECCE6
+ *          */
 
 body {
-    font-family: sans-serif;
-    background-color: #2f3032;
-    color: #bf90c6;
+    font-family: Poppins, sans-serif;
+    font-weight: 300;
+    background-color: #1A1A1E;
+    color: White;
     line-height: 1.6;
 }
 
+p {
+    font-size: 30px;
+}
 
+.title {
+    margin-top: 100px;
+    font-size: 30px;
+}
+
+.content {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-title-container {
+    align-items: center;
+    justify-content: center;
+}
+
+.pfp {
+    width: 165px;
+    display: flex;
+    padding-left: 30px;
+}
+
+/* custom scrollbar */
+body::-webkit-scrollbar {
+    width: 0.4rem;
+}
+
+body::-webkit-scrollbar-track {
+    background: #1e1e24;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #CAD6E9;
+}
