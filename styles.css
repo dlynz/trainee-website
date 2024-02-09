@@ -189,7 +189,7 @@ p {
 
 .wrapper {
     padding-top: 40px;
-    padding-bottom: 100px;
+    padding-bottom: 40px;
 }
 
 .wrapper .button{
@@ -373,7 +373,9 @@ p {
 }
 
 .image-display p {
-    font-size: 30px;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 22px;
     max-width: 40%;
 }
 
